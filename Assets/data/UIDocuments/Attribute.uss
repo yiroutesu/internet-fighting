@@ -1,0 +1,7 @@
+.attr-extend {
+    width: 0;
+}
+
+.attr-extend:hover {
+    width: 100px;
+}

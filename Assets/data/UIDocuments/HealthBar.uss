@@ -1,0 +1,59 @@
+VisualElement {
+}
+
+.unity-progress-bar__title {
+    -unity-text-align: middle-center;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    -unity-font-style: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.unity-progress-bar__background {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    height: 14px;
+}
+
+.unity-progress-bar__progress {
+    background-color: rgb(57, 197, 87);
+    border-radius: 6px;
+    margin: 1px;
+    transition: width 0.35s ease-out-circ, background-color 0.25s ease;
+}
+
+.bar-root {
+    width: 100%;
+    height: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.bar-bg {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.bar-fill {
+    position: absolute;
+    inset: 1px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(57, 197, 87);
+    border-radius: 9px;
+    transition: width 0.35s ease-out-circ, background-color 0.25s ease;
+}
+
+.bar-text {
+    position: absolute;
+    inset: 0;
+    -unity-text-align: middle-center;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    -unity-font-style: bold;
+    padding: 0;
+    margin: 0;
+}
